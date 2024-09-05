@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertPrompt", "InsertPrompt\InsertPrompt.csproj", "{20CC26FF-5A5F-4781-A466-4C27431A81D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{835E4177-00B6-47FA-A7EA-430C15099775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|arm64.ActiveCfg = Debug|arm64
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|arm64.Build.0 = Debug|arm64
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|x86.ActiveCfg = Debug|x86
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Debug|x86.Build.0 = Debug|x86
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|arm64.ActiveCfg = Release|arm64
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|arm64.Build.0 = Release|arm64
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|x86.ActiveCfg = Release|x86
+		{20CC26FF-5A5F-4781-A466-4C27431A81D7}.Release|x86.Build.0 = Release|x86
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|arm64.Build.0 = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Debug|x86.Build.0 = Debug|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|arm64.ActiveCfg = Release|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|arm64.Build.0 = Release|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|x86.ActiveCfg = Release|Any CPU
+		{835E4177-00B6-47FA-A7EA-430C15099775}.Release|x86.Build.0 = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|arm64.Build.0 = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Debug|x86.Build.0 = Debug|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|arm64.ActiveCfg = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|arm64.Build.0 = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|x86.ActiveCfg = Release|Any CPU
+		{25B5A6C3-B53C-44CA-A033-BA394D7EEAD1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4359E4-58EE-48F6-95FE-1FEF727B6FD6}
+	EndGlobalSection
+EndGlobal
