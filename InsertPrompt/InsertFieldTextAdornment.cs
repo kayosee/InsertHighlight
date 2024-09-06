@@ -14,9 +14,6 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace InsertPrompt
 {
-    /// <summary>
-    /// InsertFieldTextAdornment places red boxes behind all the "a"s in the editor window
-    /// </summary>
     internal sealed class InsertFieldTextAdornment
     {
         private string _text;
@@ -60,8 +57,7 @@ namespace InsertPrompt
 
             this.view = view;
             this.view.LayoutChanged += this.OnLayoutChanged;
-            this.view.Caret.PositionChanged += Caret_PositionChanged;
-            // Create the pen and brush to color the box behind the a's
+            this.view.Caret.PositionChanged += CaretPositionChanged;
             this.brush = new SolidColorBrush(Colors.Purple);
             this.brush.Freeze();
             var penBrush = new SolidColorBrush(Colors.Red);
@@ -70,7 +66,7 @@ namespace InsertPrompt
             this.pen.Freeze();
         }
 
-        private void Caret_PositionChanged(object sender, CaretPositionChangedEventArgs e)
+        private void CaretPositionChanged(object sender, CaretPositionChangedEventArgs e)
         {
             _elements.Clear();
             
@@ -132,11 +128,6 @@ namespace InsertPrompt
 
             Redraw();
         }
-
-        /// <summary>
-        /// Adds the scarlet box behind the 'a' characters within the given line
-        /// </summary>
-        /// <param name="line">Line to add the adornments</param>
         private SnapshotSpan CreateVisuals(Element element)
         {
             int start = element.Start; 

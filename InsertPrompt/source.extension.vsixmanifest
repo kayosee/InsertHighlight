@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="InsertPrompt.99fc534d-7c97-43a9-b134-02ec81431ce0" Version="1.0" Language="en-US" Publisher="kayosee" />
+        <Identity Id="InsertPrompt.99fc534d-7c97-43a9-b134-02ec81431ce1" Version="1.1" Language="en-US" Publisher="kayosee" />
         <DisplayName>InsertPrompt</DisplayName>
         <Description>Empty VSIX Project.</Description>
     </Metadata>
-    <Installation AllUsers="true">
+    <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[16.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Community">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
     </Installation>

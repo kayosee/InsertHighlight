@@ -30,7 +30,7 @@ namespace InsertPrompt
         /// <summary>
         /// InsertPromptPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "d5e6ac36-b7e2-42e1-8f11-4d248dbd000d";
+        public const string PackageGuidString = "d5e6ac36-b7e2-42e1-8f11-4d248dbd000e";
 
         #region Package Members
 

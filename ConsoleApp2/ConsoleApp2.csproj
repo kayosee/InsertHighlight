@@ -8,11 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Insert.g4" />
-    <None Remove="Select.g4" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Antlr4 Include="Insert.g4" />
     <Antlr4 Include="Select.g4">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
