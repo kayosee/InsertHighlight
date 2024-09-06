@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace Antlr4Sample
 {
-    internal class Class1 : InsertBaseListener
+    internal class InsertListener : InsertBaseListener
     {
         public override void EnterInsertTableName([NotNull] InsertParser.InsertTableNameContext context)
         {
@@ -33,7 +33,7 @@ namespace ConsoleApp2
                     var fields = fieldsExpr.GetChild(i);
                     for (int j = 0; j < fields.ChildCount; j++)
                     {
-                        var field= fields.GetChild(j);
+                        var field = fields.GetChild(j);
                         if (field.GetType() != typeof(TerminalNodeImpl))
                             Console.WriteLine(field.GetText());
                     }
