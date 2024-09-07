@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace InsertPrompt
+namespace InsertHighlight
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -24,13 +24,13 @@ namespace InsertPrompt
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(InsertPromptPackage.PackageGuidString)]
-    public sealed class InsertPromptPackage : AsyncPackage
+    [Guid(InsertHighlightPackage.PackageGuidString)]
+    public sealed class InsertHighlightPackage : AsyncPackage
     {
         /// <summary>
-        /// InsertPromptPackage GUID string.
+        /// InsertHighlightPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "03b68016-8e04-4f7d-8ea3-a3d6d37a4420";
+        public const string PackageGuidString = "007c6c6c-12c5-4460-a5a6-a73947828cc5";
 
         #region Package Members
 
